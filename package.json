@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.11",
+    "greenlock": "^2.8.9",
+    "greenlock-store-fs": "^3.2.2",
+    "koa-body": "^6.0.1",
+    "le-challenge-fs": "^2.0.9"
+  }
+}
