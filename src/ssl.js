@@ -42,6 +42,7 @@ const greenlock = Greenlock.create({
     challengeType: 'http-01',
     agreeToTerms: leAgree,
     debug: false,
+    renewBy: 10 * 24 * 60 * 60 * 1000,// 10倒计时开始续期
 });
 
 // =========================对外提供服务的接口=================================
