@@ -45,6 +45,11 @@ const greenlock = Greenlock.create({
     renewBy: 10 * 24 * 60 * 60 * 1000,// 10倒计时开始续期
 });
 
+// 计算2个Date对象之间的天数
+function getTimeDay(date1,date2){
+    return Math.floor((date2-date1)/(24*60*60*1000));
+}
+
 // =========================对外提供服务的接口=================================
 // 创建SSL证书申请请求
 async function CreateSSL(domain, email = '') {
