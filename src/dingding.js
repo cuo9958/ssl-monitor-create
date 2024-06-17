@@ -1,5 +1,5 @@
-import crypto from 'crypto';
-import axios from 'axios';
+const crypto = require('crypto');
+const axios = require('axios');
 
 //替换成自己的钉钉KEY
 const DD_KEY = 'SEC123456789';
